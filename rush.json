@@ -1,0 +1,33 @@
+
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "ensureConsistentVersions": true,
+  "eventHooks": {
+    "postRushBuild": [],
+    "postRushInstall": [],
+    "preRushBuild": [],
+    "preRushInstall": []
+  },
+  "gitPolicy": {},
+  "hotfixChangeEnabled": false,
+  "nodeSupportedVersionRange": "12.16.1",
+  "pnpmOptions": {
+    "pnpmStore": "local",
+    "resolutionStrategy": "fast",
+    "strictPeerDependencies": true
+  },
+  "pnpmVersion": "4.12.0",
+  "projectFolderMaxDepth": 2,
+  "projectFolderMinDepth": 1,
+  "projects": [
+  ],
+  "repository": {
+    "defaultBranch": "master",
+    "defaultRemote": "origin",
+    "url": "https://github.com/nazg/umbrella"
+  },
+  "rushVersion": "5.22.0",
+  "suppressNodeLtsWarning": false,
+  "telemetryEnabled": false,
+  "variants": []
+}
