@@ -20,6 +20,10 @@
   "projectFolderMaxDepth": 2,
   "projectFolderMinDepth": 1,
   "projects": [
+    {
+      "packageName": "@nazg/electron",
+      "projectFolder": "packages/electron"
+    }
   ],
   "repository": {
     "defaultBranch": "master",

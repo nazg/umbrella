@@ -1,0 +1,11 @@
+{
+  "name": "@nazg/electron",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {},
+  "devDependencies": {},
+  "dependencies": {
+    "electron": "^8.1.1",
+    "node-ipc": "^9.1.1"
+  }
+}
