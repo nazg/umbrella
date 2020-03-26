@@ -2,8 +2,12 @@
   "name": "@nazg/electron",
   "version": "0.1.0",
   "license": "MIT",
-  "scripts": {},
-  "devDependencies": {},
+  "scripts": {
+    "build": "rollup -c node_modules/@nazg/toolchain/rollup.config.ts"
+  },
+  "devDependencies": {
+    "@nazg/toolchain":"^0.1.0"
+  },
   "dependencies": {
     "electron": "^8.1.1",
     "node-ipc": "^9.1.1"

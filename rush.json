@@ -14,7 +14,7 @@
   "pnpmOptions": {
     "pnpmStore": "local",
     "resolutionStrategy": "fast",
-    "strictPeerDependencies": true
+    "strictPeerDependencies": false
   },
   "pnpmVersion": "4.12.0",
   "projectFolderMaxDepth": 2,
@@ -23,6 +23,10 @@
     {
       "packageName": "@nazg/electron",
       "projectFolder": "packages/electron"
+    },
+    {
+      "packageName": "@nazg/toolchain",
+      "projectFolder": "toolchain"
     }
   ],
   "repository": {
